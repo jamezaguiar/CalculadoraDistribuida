@@ -9,8 +9,6 @@ public class TCPClient {
     private DataInputStream in;
     private DataOutputStream out;
     private Socket client;
-    private String addr;
-    private int port;
 
     public TCPClient(String addr, int port) {
         try {

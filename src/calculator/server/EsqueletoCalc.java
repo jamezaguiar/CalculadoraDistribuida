@@ -7,21 +7,21 @@ public class EsqueletoCalc {
 
     public String add(String args) {
         String[] argsFormated = args.split(",");
-        return Double.toString(c.add(Double.parseDouble(argsFormated[1]), Double.parseDouble(argsFormated[2])));
+        return Double.toString(c.add(Double.parseDouble(argsFormated[0]), Double.parseDouble(argsFormated[1])));
     }
 
     public String sub(String args) {
         String[] argsFormated = args.split(",");
-        return Double.toString(c.sub(Double.parseDouble(argsFormated[1]), Double.parseDouble(argsFormated[2])));
+        return Double.toString(c.sub(Double.parseDouble(argsFormated[0]), Double.parseDouble(argsFormated[1])));
     }
 
     public String mult(String args) {
         String[] argsFormated = args.split(",");
-        return Double.toString(c.mult(Double.parseDouble(argsFormated[1]), Double.parseDouble(argsFormated[2])));
+        return Double.toString(c.mult(Double.parseDouble(argsFormated[0]), Double.parseDouble(argsFormated[1])));
     }
 
     public String div(String args) {
         String[] argsFormated = args.split(",");
-        return Double.toString(c.div(Double.parseDouble(argsFormated[1]), Double.parseDouble(argsFormated[2])));
+        return Double.toString(c.div(Double.parseDouble(argsFormated[0]), Double.parseDouble(argsFormated[1])));
     }
 }
